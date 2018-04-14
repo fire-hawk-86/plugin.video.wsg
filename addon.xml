@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.wsg" version="1.0" name="Metachannels" provider-name="fire-hawk">
+<requires>
+  <import addon="xbmc.python" version="2.7.10"/>
+  <import addon="script.module.requests" version="2.18.4"/>
+  <import addon="script.module.beautifulsoup4" version="4.5.3"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="wsg.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">Addon for 4chan.org/wsg/</summary>
+  <assets>
+    <icon>icon.png</icon>
+  </assets>
+</extension>
+</addon>
